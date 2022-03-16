@@ -1,14 +1,147 @@
 
 
+*
+{
+  box-sizing: border-box;
+  --mainColor: #3e5a9c;
+  --secondaryColor: #5a81db;
+}
+
+
 body
 {
-  background-color: black;
-  color: white;
+  margin: 0;
+  padding: 0;
+  
 }
 
 .navBar
 {
-  height: 50px;
+  background-color: var(--mainColor);
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  flex-direction: column;
+  align-items: flex-start;
+
+}
+
+.navTitle
+{
+  font-size: 1.5rem;
+  margin: 1rem;
+}
+
+.navLinks
+{
+  display: none;
+ 
+}
+
+.navLinks ul
+{
+   flex-direction: column;
+   width: 100%;
+   padding: 0;
+   margin: 0;
+  
+  
+  
+}
+
+.navLinks li
+{
+  text-align: center;
+}
+
+.navLinks ul li a 
+{
+  display: block;
+  padding: 1rem;
+  text-decoration: none;
+  color: white;
+  font-size: 1.20rem;
+}
+
+i.bx-menu
+{
+ 
+  position: absolute;
+  color: white;
+  top: 1rem;
+  right: 1rem;
+  font-size: 25px;
+}
+
+.navLinks.actived
+{
+  display: flex;
+  transition: all 0.5s ease;
   width: 100%;
-  background-color: red;
+ 
+}
+
+
+
+
+
+
+@media (min-width: 768px)
+{
+
+  .navBar
+  {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    flex-direction: row;
+
+  }
+
+
+    i.bx-menu
+    {
+      display: none;
+    }
+   
+    .navLinks
+    {
+      display: block;
+      
+      
+    }
+
+    .navLinks ul
+    {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: row;
+    
+      
+    }
+
+    .navLinks li
+    {
+      list-style: none;
+    }
+
+    .navLinks li a 
+    {
+      text-decoration: none;
+      color: white;
+      padding: 1rem;
+      display: block;
+    }
+
+    .navLinks li:hover
+    {
+      background-color: var(--secondaryColor);
+      text-decoration: underline;
+    }
+
 }
