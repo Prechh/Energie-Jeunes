@@ -363,3 +363,20 @@ i.bx-menu
 }
 
 /* ---------------------------------- END RESPONSIVE MAIN PAGE FORMAT TABLET ------------------------*/
+
+
+/* ---------------------------------- RESPONSIVE MAIN PAGE FORMAT LAPTOP ------------------------*/
+
+
+@media (min-width: 1024px)
+{
+  .navLinks ul li a
+  {
+    font-size: 1.5rem;
+  }
+
+  .navTitle
+  {
+    font-size: 1.8rem;
+  }
+}
