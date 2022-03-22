@@ -121,7 +121,7 @@ i.bx-menu
 {
   display: flex;
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1rem;
   color: var(--mainColor);
   padding: 10px;
 }
@@ -130,7 +130,7 @@ i.bx-menu
 {
   display: flex;
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1rem;
   color: var(--mainColor);
   padding: 10px;
 }
@@ -239,7 +239,7 @@ i.bx-menu
 .containerQSN .descriptionQSN2
 {
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1rem;
   color: var(--mainColor);
   padding: 10px;
   margin-top: 20px;
@@ -248,7 +248,7 @@ i.bx-menu
 .containerQSN .descriptionQSN3
 {
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1rem;
   color: var(--mainColor);
   padding: 10px;
   margin-top: 20px;
@@ -274,6 +274,11 @@ i.bx-menu
   color: white;
   font-size: 0.90rem;
   
+}
+
+.titleIntroductionImg
+{
+  display: none;
 }
 
 /* ------------------------- END CONTAINER QSN ------------------------*/
@@ -339,6 +344,8 @@ i.bx-menu
       background-color: var(--secondaryColor);
       text-decoration: underline;
     }
+
+  
 
 }
 
@@ -425,7 +432,7 @@ i.bx-menu
     filter: brightness(50%);
   }
 
-  .titleIntroudction
+  .titleIntroductionImg
   {
     position: absolute;
     color: white;
@@ -436,3 +443,143 @@ i.bx-menu
 }
 
 /* ---------------------------------- END RESPONSIVE MAIN PAGE FORMAT LAPTOP ------------------------*/
+
+
+/* ----------------------------------  RESPONSIVE MAIN PAGE FORMAT LAPTOP L ------------------------*/
+
+@media (min-width: 1440px)
+{
+  .titleQSN
+  {
+    margin-top: 45%;
+  }
+
+  .containerIntroduction .descriptionIntroduction
+  {
+    text-align: left;
+    margin-left: 20px;
+  }
+
+  .containerIntroduction .descriptionIntroduction2
+  {
+    text-align: left;
+    margin-left: 20px;
+  }
+
+  .containerIntroduction .descriptionIntroduction3
+  {
+    text-align: left;
+    margin-left: 20px;
+  }
+
+  .containerQSN .descriptionQSN
+  {
+    text-align: left;
+    margin-left: 20px;
+  }
+
+  .containerQSN .descriptionQSN2
+  {
+    text-align: left;
+    margin-left: 20px;
+  }
+
+  .containerQSN .descriptionQSN3
+  {
+    text-align: left;
+    margin-left: 20px;
+  }
+}
+
+
+@media (min-width: 1920px)
+{
+  .titleQSN
+  {
+    
+    position: absolute;
+    top: 1200px;
+    left: 15%;
+    z-index: 8;
+    font-size: 4rem;
+    color: white;
+    
+  }
+
+  .containerIntroduction .descriptionIntroduction
+  {
+    text-align: left;
+    margin-left: 20px;
+  
+  }
+
+  .containerIntroduction .descriptionIntroduction2
+  {
+    text-align: left;
+    margin-left: 20px;
+  }
+
+  .containerIntroduction .descriptionIntroduction3
+  {
+    text-align: left;
+    margin-left: 20px;
+  }
+
+  .containerQSN .descriptionQSN
+  {
+    text-align: left;
+    margin-left: 20px;
+    position: absolute;
+    top: 2200px;
+    color: white;
+  }
+
+  .containerQSN .descriptionQSN2
+  {
+    text-align: left;
+    margin-left: 20px;
+    position: absolute;
+    top: 2300px;
+    color: white;
+  }
+
+  .containerQSN .descriptionQSN3
+  {
+    text-align: left;
+    margin-left: 20px;
+    position: absolute;
+    top: 2400px;
+    color: white;
+  }
+
+  .imgQSN
+  {
+    filter: brightness(50%);
+    position: relative;
+    top: 50%;
+    height: 100%;
+  }
+
+  .buttonEvent button
+  {
+    margin-top: 500px;
+    cursor: pointer;
+  }
+
+  .buttonEvent button:hover
+  {
+    background-color:  var(--secondaryColor);
+  }
+
+  .titleIntroductionImg
+  {
+    position: absolute;
+    color: white;
+    top: 40%;
+    left: 15%;
+    font-size: 3rem;
+  }
+
+  
+}
+
