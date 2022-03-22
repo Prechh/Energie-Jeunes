@@ -6,6 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="Style.css">
   <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <title> Energie Jeunes </title>
 </head>
 <body>
@@ -29,23 +32,24 @@
               <img src="img/jeswin-thomas-8nHQx4zi9Wk-unsplash.webp" alt="">
           </div>
 
-          <div class="titleIntroduction"> Pour la réussite scolaire de tous </div>
-          <span class="descriptionIntroduction"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec molestie metus massa, a interdum orci feugiat vel. <br><br> Aliquam lobortis ligula et pretium egestas. In hac habitasse platea dictumst. Curabitur eget ligula nulla. Vestibulum non lacus in dolor tristique luctus in et ipsum. <br><br> Nunc id massa neque. Cras laoreet elit eget hendrerit tincidunt. Praesent porta justo id mauris tempor, vel tempus sapien pellentesque. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. <br><br> </span>
+          <div class="titleIntroudction" data-aos="fade-up" data-aos-duration="3000"> Energie Jeunes <br> On va tous aimer apprendre ! </div>
+          <div class="titleIntroduction" data-aos="fade-down" data-aos-duration="2000"> Pour la réussite scolaire de tous </div>
+          <span class="descriptionIntroduction" data-aos="fade-right" data-aos-delay="500" data-aos-duration="1500"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec molestie metus massa, a interdum orci feugiat vel. <br><br> </span> <span class="descriptionIntroduction2" data-aos="fade-right" data-aos-delay="800" data-aos-duration="1500" > Aliquam lobortis ligula et pretium egestas. In hac habitasse platea dictumst. Curabitur eget ligula nulla. Vestibulum non lacus in dolor tristique luctus in et ipsum. <br><br></span> <span class="descriptionIntroduction3" data-aos="fade-right" data-aos-delay="1100" data-aos-duration="1500"> Nunc id massa neque. Cras laoreet elit eget hendrerit tincidunt. Praesent porta justo id mauris tempor, vel tempus sapien pellentesque. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. <br><br>  </span>
       </div>
   </section>
 
   <section class="QSN">
       <div class="containerQSN">
-         <div class="titleQSN"> Qui sommes-nous </div>
+         <div class="titleQSN" data-aos="fade-up" data-aos-duration="2000"> Qui sommes-nous </div>
 
          <div class="imgQSN"> 
            <img src="img/priscilla-du-preez-XkKCui44iM0-unsplash.webp" alt="">
          </div>
 
-         <div class="descriptionQSN"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur placerat consectetur scelerisque. Praesent vitae faucibus velit, quis placerat nibh. <br><br> Donec nisl urna, consequat aliquet elit mollis, mollis luctus nisl. Morbi id augue et felis sollicitudin gravida dictum eu lacus. Integer arcu tortor, lobortis et purus et, aliquet faucibus augue. <br><br> Ut est justo, accumsan ut sodales non, accumsan ac ex. Cras sodales porttitor rutrum. Ut rutrum vestibulum nisl placerat imperdiet. Vivamus ac neque facilisis, ultrices dui et, tempus turpis. Sed urna libero, auctor vel ipsum ultrices, ullamcorper tempus diam. Aenean eu mattis magna. Vestibulum fermentum nisl quam, quis ornare tortor dignissim.</div>
+         <div class="descriptionQSN" data-aos="fade-right" data-aos-delay="500" data-aos-duration="1500"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur placerat consectetur scelerisque. Praesent vitae faucibus velit, quis placerat nibh. <br><br> </div> <div class="descriptionQSN2" data-aos="fade-right" data-aos-delay="800" data-aos-duration="1500" >  nisl urna, consequat aliquet elit mollis, mollis luctus nisl. Morbi id augue et felis sollicitudin gravida dictum eu lacus. Integer arcu tortor, lobortis et purus et, aliquet faucibus augue. <br><br></div>  <div class="descriptionQSN3" data-aos="fade-right" data-aos-delay="1100" data-aos-duration="1500"> Ut est justo, accumsan ut sodales non, accumsan ac ex. Cras sodales porttitor rutrum. Ut rutrum vestibulum nisl placerat imperdiet. Vivamus ac neque facilisis, ultrices dui et, tempus turpis. Sed urna libero, auctor vel ipsum ultrices, ullamcorper tempus diam. Aenean eu mattis magna. Vestibulum fermentum nisl quam, quis ornare tortor dignissim. </div>
 
          <form action="http://localhost/Energie-Jeunes/event.html"> 
-           <div class="buttonEvent">
+           <div class="buttonEvent" data-aos="zoom-in" data-aos-delay="1800" data-aos-duration="1000">
               <button type="submit"> Voir nos événements </button>
            </div>
          </form>
@@ -61,6 +65,9 @@
 
 
   <script src="script.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 

@@ -108,11 +108,29 @@ i.bx-menu
   padding: 50px;
 }
 
-.containerIntroduction .descriptionIntroduction
+.containerIntroduction .descriptionIntroduction 
 {
   display: flex;
   text-align: center;
   font-size: 1.2rem;
+  color: var(--mainColor);
+  padding: 10px;
+}
+
+.containerIntroduction .descriptionIntroduction2
+{
+  display: flex;
+  text-align: center;
+  font-size: 1.5rem;
+  color: var(--mainColor);
+  padding: 10px;
+}
+
+.containerIntroduction .descriptionIntroduction3
+{
+  display: flex;
+  text-align: center;
+  font-size: 1.5rem;
   color: var(--mainColor);
   padding: 10px;
 }
@@ -217,6 +235,26 @@ i.bx-menu
   padding: 10px;
   margin-top: 20px;
 }
+
+.containerQSN .descriptionQSN2
+{
+  text-align: center;
+  font-size: 1.5rem;
+  color: var(--mainColor);
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.containerQSN .descriptionQSN3
+{
+  text-align: center;
+  font-size: 1.5rem;
+  color: var(--mainColor);
+  padding: 10px;
+  margin-top: 20px;
+}
+
+
 
 .buttonEvent
 {
@@ -370,13 +408,31 @@ i.bx-menu
 
 @media (min-width: 1024px)
 {
-  .navLinks ul li a
-  {
-    font-size: 1.5rem;
-  }
-
   .navTitle
   {
     font-size: 1.8rem;
   }
+
+  .titleQSN
+  {
+    margin-top: 55%;
+  }
+
+  .containerIntroduction .imgIntroduction img
+  {
+    width: 100%;
+    height: 100vh;
+    filter: brightness(50%);
+  }
+
+  .titleIntroudction
+  {
+    position: absolute;
+    color: white;
+    top: 40%;
+    left: 15%;
+    font-size: 3rem;
+  }
 }
+
+/* ---------------------------------- END RESPONSIVE MAIN PAGE FORMAT LAPTOP ------------------------*/
