@@ -113,8 +113,9 @@ i.bx-menu
 {
   display: flex;
   text-align: center;
-  font-size: 1rem;
+  font-size: 1.2rem;
   color: var(--mainColor);
+  margin-top: 30px;
 }
 
 .containerIntroduction
@@ -212,7 +213,7 @@ i.bx-menu
 .containerQSN .descriptionQSN
 {
   text-align: center;
-  font-size: 1rem;
+  font-size: 1.2rem;
   color: var(--mainColor);
   margin-top: 50px;
 }
@@ -226,7 +227,7 @@ i.bx-menu
 
 .buttonEvent button
 {
-  margin-top: 60px;
+  margin-top: 30px;
   height: 50px;
   width: 250px;
   background-color: var(--mainColor);
