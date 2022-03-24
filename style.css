@@ -378,7 +378,27 @@ i.bx-menu
     font-size: 1.5rem;
   }
 
+  .containerIntroduction .descriptionIntroduction2
+  {
+    font-size: 1.5rem;
+  }
+
+  .containerIntroduction .descriptionIntroduction3
+  {
+    font-size: 1.5rem;
+  }
+
   .containerQSN .descriptionQSN
+  {
+   font-size: 1.5rem;
+  }
+
+  .containerQSN .descriptionQSN2
+  {
+   font-size: 1.5rem;
+  }
+
+  .containerQSN .descriptionQSN3
   {
    font-size: 1.5rem;
   }
@@ -440,6 +460,12 @@ i.bx-menu
     left: 15%;
     font-size: 3rem;
   }
+
+  .titleIntroductionImg
+  {
+    display: block;
+  }
+
 }
 
 /* ---------------------------------- END RESPONSIVE MAIN PAGE FORMAT LAPTOP ------------------------*/
