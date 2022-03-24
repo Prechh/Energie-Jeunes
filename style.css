@@ -202,6 +202,11 @@ i.bx-menu
   padding-bottom: 10px;
 }
 
+.titleIntroductionImgEvent
+{
+  display: none;
+}
+
 /* ------------------------------- END Page Event -------------------------*/
 
 /* ------------------------------------------------------ END CONTAINER INTRODUCTION --------------------------------------------*/
@@ -342,7 +347,7 @@ i.bx-menu
     .navLinks li:hover
     {
       background-color: var(--secondaryColor);
-      text-decoration: underline;
+      border-radius: 10px;  
     }
 
   
@@ -605,7 +610,78 @@ i.bx-menu
     left: 15%;
     font-size: 3rem;
   }
+}
 
-  
+
+/* ---------------------------------- END RESPONSIVE MAIN PAGE FORMAT LAPTOP L ------------------------*/
+
+/* ------------------------------- RESPONSIVE EVENT PAGE FORMAT TABLET ------------------------*/
+
+@media (min-width: 768px)
+{
+  .descriptionBlockEvent 
+  {
+    font-size: 1rem;
+  }
+
+  p
+  {
+    font-size: 0.9rem;
+  }
+
+  .containerEvent .titleEvent
+  {
+    font-size: 2rem;
+  }
+}
+
+/* ------------------------------- END RESPONSIVE EVENT PAGE FORMAT TABLET ------------------------*/
+
+
+/* ------------------------------- RESPONSIVE EVENT PAGE FORMAT LAPTOP ------------------------*/
+
+@media (min-width: 1024px)
+{
+  .containerEvent .imgEvent img
+  {
+    width: 100%;
+    filter: brightness(50%);
+  }
+
+  .titleIntroductionImgEvent
+  {
+    position: absolute;
+    color: white;
+    top: 30%;
+    left: 15%;
+    font-size: 3rem;
+  }
+
+  .titleIntroductionImgEvent
+  {
+    display: block;
+  }
+}
+
+/* -------------------------------  END RESPONSIVE EVENT PAGE FORMAT LAPTOP ------------------------*/
+
+
+/* ------------------------------- RESPONSIVE EVENT PAGE FORMAT LAPTOP L ------------------------*/
+
+@media (min-width: 1440px)
+{
+  .blockEvent
+  {
+    width: 45%; 
+    background-color: #e3e6e4;
+    margin-left: 50px;
+    
+  }
+
+  .mainContainerEvent
+  {
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
 
