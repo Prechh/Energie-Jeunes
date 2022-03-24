@@ -471,6 +471,20 @@ i.bx-menu
     display: block;
   }
 
+  .navBar
+  {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    flex-direction: row;
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+
+  }
+
 }
 
 /* ---------------------------------- END RESPONSIVE MAIN PAGE FORMAT LAPTOP ------------------------*/
@@ -675,6 +689,7 @@ i.bx-menu
     width: 45%; 
     background-color: #e3e6e4;
     margin-left: 50px;
+    height: 100%;
     
   }
 
