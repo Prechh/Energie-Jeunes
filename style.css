@@ -111,7 +111,7 @@ i.bx-menu
 .containerIntroduction .titleIntroduction 
 {
   color: var(--mainColor);
-  font-size: 1.75rem;
+  font-size: 1.5rem;
   text-align: center;
   padding: 50px;
 }
@@ -146,6 +146,21 @@ i.bx-menu
 .containerIntroduction
 {
   height: 100vh;
+}
+
+.titleIntroductionImg
+{
+  font-weight: bold;
+}
+
+.titleIntroduction
+{
+  font-weight: bold;
+}
+
+.titleQSN
+{
+  font-weight: bold;
 }
 
 /* ------------------------------- Page Event -------------------------*/
@@ -424,7 +439,7 @@ i.bx-menu
   .titleQSN
   {
     font-size: 2.5rem;
-    margin-top: 150px;
+    margin-top: 300px;
   }
 
   .buttonEvent button
@@ -637,6 +652,25 @@ i.bx-menu
 
 /* ---------------------------------- END RESPONSIVE MAIN PAGE FORMAT LAPTOP L ------------------------*/
 
+
+/* ----------------------------------  RESPONSIVE MAIN PAGE FORMAT 1920 x 1080 ------------------------*/
+
+@media (min-width: 1920px)
+{
+  .buttonEvent button
+  {
+    margin-top: 625px;
+    height: 50px;
+    width: 350px;
+    background-color: var(--mainColor);
+    border-radius: 15px;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+  }
+}
+
+
 /* ------------------------------- RESPONSIVE EVENT PAGE FORMAT TABLET ------------------------*/
 
 @media (min-width: 768px)
@@ -675,7 +709,7 @@ i.bx-menu
     position: absolute;
     color: white;
     top: 30%;
-    left: 15%;
+    left: 10%;
     font-size: 3rem;
   }
 
